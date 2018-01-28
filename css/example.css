@@ -1,0 +1,84 @@
+html{
+    color:#000;background:#FFF;
+}
+body{
+    margin:0;padding:0;
+    font-family: "Sawarabi Gothic";
+    box-sizing: border-box;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  transition: .3s;
+}
+
+.logo{
+  display: block;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  transition: .3s;
+}
+
+.header-animation {
+  height: 50px;
+}
+
+.logo-animation {
+  height: 30px;
+}
+
+.about-animation{
+  visibility : hidden;
+}
+
+.content{
+  position: absolute;
+  top: 200px;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.about{
+  height: 100px;
+  text-align: center;
+  /*background-color: rgb(190, 190, 0);*/
+  margin-bottom: 10px;
+}
+
+.yell_lists{
+  margin: 30px 0 ;
+  /*padding: 5%;*/
+  display : table ;
+   justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.yell_lists li{
+  width:calc(92% / 3);
+  display : table ;
+  height: 130px;
+  float: left;
+  list-style: none;
+  font-size: 24px;
+  padding: 30px 10px;
+  background-color: rgba(227, 227, 227, 0.6);
+  border: 5px solid #fff;
+  position: relative;
+}
+
+.yell{
+  display: table-cell;
+  vertical-align: middle;
+}
